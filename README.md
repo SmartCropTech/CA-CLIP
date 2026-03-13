@@ -10,7 +10,7 @@ The main files are as follows:
 
 (2) CA-CLIP - Model's main code, training files, and result files.
 
-(3) Predict_image.py - Single leaf image diagnostic code.
+(3) Clssification_predict.py - Leaf image diagnostic code.
 
 
 • Read the beginner’s guide to Python if you are new to the language: https://wiki.python.org/moin/BeginnersGuide
