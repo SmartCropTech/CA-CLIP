@@ -1,0 +1,452 @@
+{
+  "Cedar-apple rust": [
+    "a photo of an apple leaf with cedar-apple rust",
+    "close-up of cedar-apple rust lesions on an apple leaf",
+    "apple leaf with bright yellow-orange rust spots and distinct chlorotic halos",
+    "apple leaf showing scattered to clustered orange-yellow rust lesions across the lamina",
+    "apple leaf with raised orange rust pustules (aecia) breaking through the lesion surface",
+    "macro photo of cedar-apple rust on apple foliage with circular orange lesions and rough pustular texture",
+    "cedar-apple rust on apple leaf with lesions distributed between veins and expanding from small yellow spots to orange pustules",
+    "apple leaf infected with Gymnosporangium rust, showing orange raised pustules arranged as discrete scattered lesions"
+  ],
+  "Apple scab": [
+    "a photo of an apple leaf with apple scab",
+    "close-up of apple scab on an apple leaf",
+    "apple leaf with olive-green to black velvety scab spots",
+    "apple leaf showing irregular dark scabby lesions and blotches scattered across the leaf surface",
+    "apple leaf with velvety, rough-textured scab patches typical of apple scab",
+    "macro photo of apple scab with dark superficial lesions and a scurfy, velvety surface texture",
+    "apple leaf infected with scab, showing lesions clustered along the lamina and between major veins",
+    "apple leaf with multiple olive-black scab lesions that may coalesce into larger irregular patches"
+  ],
+  "Apple black rot": [
+    "a photo of an apple leaf with black rot (frogeye leaf spot)",
+    "close-up of frogeye leaf spot lesions on an apple leaf (black rot)",
+    "apple leaf with tan circular lesions and dark purple-brown margins",
+    "apple leaf showing round frogeye spots with light tan centers and sharply defined dark borders",
+    "macro photo of black rot on apple foliage with concentric ring-like zoning and dry necrotic centers",
+    "apple leaf with dry papery lesions, ringed structure, and necrotic tissue typical of frogeye leaf spot",
+    "black rot on apple leaf with lesions scattered across the blade and some spots coalescing into larger necrotic areas",
+    "apple leaf infected by black rot, showing circular frogeye-pattern lesions distributed as discrete and partially merged spots"
+  ],
+  "Common corn rust": [
+    "a photo of a corn leaf with common rust",
+    "close-up of common rust on a corn leaf",
+    "corn leaf with rusty orange-brown raised pustules",
+    "corn leaf showing numerous scattered rust pustules across both sides of the leaf blade",
+    "macro image of common rust on corn foliage with eruptive pustules and rough powdery spore masses",
+    "corn leaf with small elongated pustules protruding from the epidermis and releasing rust-colored spores",
+    "common rust symptoms on corn leaf with pustules distributed irregularly between veins",
+    "corn leaf infected with rust, showing scattered orange-brown pustules that may become densely clustered"
+  ],
+  "Corn gray leaf spot": [
+    "a photo of a corn leaf with gray leaf spot",
+    "close-up of gray leaf spot lesions on a corn leaf",
+    "corn leaf with rectangular gray-tan lesions limited by veins",
+    "corn leaf showing blocky elongated lesions arranged parallel to the veins",
+    "macro photo of gray leaf spot on corn foliage with flat necrotic lesions and vein-delimited geometry",
+    "corn leaf with papery gray centers, sharp linear margins, and a smooth dry lesion surface",
+    "gray leaf spot on corn leaf with lesions distributed in bands between parallel veins",
+    "corn leaf infected with gray leaf spot, showing multiple rectangular lesions that may align and coalesce along the leaf axis"
+  ],
+  "Northern corn leaf blight": [
+    "a photo of a corn leaf with northern corn leaf blight",
+    "close-up of northern corn leaf blight lesions on a corn leaf",
+    "corn leaf with long cigar-shaped tan to brown blight lesions",
+    "corn leaf showing elongated spindle-to-cigar-shaped necrotic lesions extending along the leaf blade",
+    "macro photo of northern corn leaf blight with large dry lesions and smooth necrotic tissue",
+    "corn leaf with broad blighted areas, tapering ends, and a papery tan-brown lesion structure",
+    "northern corn leaf blight on corn foliage with lesions distributed longitudinally along the veins and leaf axis",
+    "corn leaf infected with leaf blight, showing elongated lesions that expand and coalesce into extensive blighted zones"
+  ],
+  "Grape isariopsis leaf spot": [
+    "a photo of a grape leaf with isariopsis leaf spot",
+    "close-up of isariopsis leaf spot lesions on a grape leaf",
+    "grape leaf with angular brown leaf spots and dark margins",
+    "grape leaf showing multiple irregular to angular necrotic spots bounded by veins",
+    "macro photo of isariopsis leaf spot with dry brown centers and sharply bordered lesions",
+    "grape leaf with flat necrotic patches, dark-edged lesion structure, and clustered spot formation",
+    "isariopsis leaf spot on grape foliage with lesions distributed between veins and concentrated in localized patches",
+    "grape leaf infected with isariopsis leaf spot, showing many brown angular lesions that may merge into larger necrotic areas"
+  ],
+  "Grape black rot": [
+    "a photo of a grape leaf with grape black rot",
+    "close-up of black rot lesions on a grape leaf",
+    "grape leaf with tan lesions with dark margins and tiny black dots (pycnidia)",
+    "grape leaf showing circular to irregular black rot spots scattered across the blade",
+    "macro image of grape black rot with dark fruiting bodies embedded in dry necrotic tissue",
+    "grape leaf with pepper-like black pycnidia, papery tan centers, and sharply demarcated margins",
+    "black rot on grape foliage with lesions distributed as discrete spots that may coalesce in heavily infected regions",
+    "grape leaf infected with black rot, showing tan necrotic lesions bearing clustered black pycnidia dots"
+  ],
+  "Grape black measles": [
+    "a photo of a grape leaf with black measles (esca)",
+    "close-up of black measles symptoms on a grape leaf (esca)",
+    "grape leaf showing tiger-stripe interveinal chlorosis and necrosis",
+    "grape leaf with mottled yellowing and brown necrotic bands arranged between major veins",
+    "macro photo of esca symptoms on grape foliage with striped chlorotic-necrotic pattern and scorched tissue",
+    "black measles on grape leaf with broad interveinal bands, patchy necrotic texture, and irregular marginal scorch",
+    "grape leaf affected by esca, showing stripe-like symptoms distributed along the interveinal lamina",
+    "grape leaf with tiger-stripe pattern typical of black measles, where chlorotic and necrotic bands expand across large leaf sectors"
+  ],
+  "Potato early blight": [
+    "a photo of a potato leaf with early blight",
+    "close-up of early blight lesions on a potato leaf",
+    "potato leaf with target-like spots showing concentric rings",
+    "potato leaf showing brown circular to irregular lesions with distinct zonation",
+    "macro photo of early blight on potato foliage with dry necrotic tissue and concentric ring structure",
+    "potato leaf with rough target-pattern lesions, papery centers, and dark necrotic margins",
+    "early blight on potato leaf with lesions scattered across the leaflet and gradually coalescing in severe infection",
+    "potato leaf infected with early blight, showing concentric ring lesions distributed as discrete target spots"
+  ],
+  "Potato late blight": [
+    "a photo of a potato leaf with late blight",
+    "close-up of late blight lesions on a potato leaf",
+    "potato leaf with water-soaked dark lesions typical of late blight",
+    "potato leaf showing irregular dark blotches expanding rapidly from the margins or leaflet tips",
+    "macro image of late blight on potato foliage with wet-looking necrotic patches and diffuse lesion boundaries",
+    "potato leaf with soft water-soaked tissue, collapsing lesion structure, and darkened blighted areas",
+    "late blight on potato leaf with lesions spreading from edges and forming broad irregular infected zones",
+    "potato leaf infected with late blight, showing rapidly enlarging dark patches that merge into extensive blight"
+  ],
+  "Rice brown spot": [
+    "a photo of a rice leaf with brown spot",
+    "close-up of brown spot lesions on a rice leaf",
+    "rice leaf with small brown oval spots and necrotic centers",
+    "rice leaf showing numerous discrete brown lesions scattered along the leaf blade",
+    "macro photo of rice brown spot with dry oval lesions, dark borders, and small necrotic centers",
+    "brown spot on rice foliage with flat speckled lesions and a dry necrotic surface texture",
+    "rice leaf infected with brown spot, showing spots distributed from mid-blade toward the tip in a scattered pattern",
+    "rice leaf with multiple brown spot lesions that remain discrete or become locally clustered under severe infection"
+  ],
+  "Rice bacterial blight": [
+    "a photo of a rice leaf with bacterial blight",
+    "close-up of bacterial blight symptoms on a rice leaf",
+    "rice leaf with long yellow blight streaks starting from the leaf tip",
+    "rice leaf showing elongated water-soaked to straw-yellow lesions extending downward along the blade",
+    "macro image of rice bacterial blight with tip burn, translucent streaks, and blighted tissue",
+    "bacterial blight on rice leaf with smooth elongated lesion structure and progressive drying from the tip margin",
+    "rice leaf infected with bacterial blight, showing lesions distributed longitudinally from tip to base along the leaf axis",
+    "rice leaf with extensive yellow blight streaks that expand and merge into large blighted sectors"
+  ],
+  "Rice blast": [
+    "a photo of a rice leaf with blast disease",
+    "close-up of blast lesions on a rice leaf",
+    "rice leaf with spindle-shaped lesions with gray centers and brown margins",
+    "rice leaf showing elongated diamond-shaped lesions arranged along the leaf blade",
+    "macro photo of rice blast with gray-centered spindle lesions and sharply defined necrotic borders",
+    "blast on rice foliage with dry necrotic centers, tapering lesion ends, and a spindle-like structure",
+    "rice leaf infected with blast, showing multiple lesions distributed longitudinally and separately along the blade",
+    "rice leaf with spindle-shaped blast lesions that may enlarge and coalesce into larger necrotic regions"
+  ],
+  "Tomato early blight": [
+    "a photo of a tomato leaf with early blight",
+    "close-up of early blight lesions on a tomato leaf",
+    "tomato leaf with target-like spots showing concentric rings",
+    "tomato leaf showing brown circular to irregular lesions with zonate ring pattern",
+    "macro photo of early blight on tomato foliage with dry necrotic tissue and concentric lesion structure",
+    "tomato leaf with rough target-pattern lesions, papery centers, and darkened margins",
+    "early blight on tomato leaf with spots scattered across the leaflet and some lesions becoming clustered",
+    "tomato leaf infected with early blight, showing multiple concentric ring lesions that may coalesce under severe infection"
+  ],
+  "Tomato late blight": [
+    "a photo of a tomato leaf with late blight",
+    "close-up of late blight lesions on a tomato leaf",
+    "tomato leaf with water-soaked dark lesions typical of late blight",
+    "tomato leaf showing large irregular dark blotches expanding rapidly from leaflet edges",
+    "macro image of late blight on tomato foliage with wet-looking necrotic patches and diffuse boundaries",
+    "tomato leaf with soft collapsed tissue, water-soaked structure, and extensive dark blight areas",
+    "late blight on tomato leaf with lesions spreading from margins and forming broad irregular infected zones",
+    "tomato leaf infected with late blight, showing rapidly enlarging dark patches that merge into severe blight"
+  ],
+  "Tomato septoria leaf spot": [
+    "a photo of a tomato leaf with septoria leaf spot",
+    "close-up of septoria leaf spot lesions on a tomato leaf",
+    "tomato leaf with small circular spots with gray centers and dark margins",
+    "tomato leaf showing many tiny discrete lesions scattered densely across the leaflet",
+    "macro photo of septoria leaf spot with black pycnidia dots embedded in pale lesion centers",
+    "septoria leaf spot on tomato foliage with papery gray centers, pepper-like pycnidia, and sharply bordered small spots",
+    "tomato leaf infected with septoria, showing lesions distributed as dense scattered speckles over the lamina",
+    "tomato leaf with clustered septoria spots that may merge into blighted patches under heavy infection"
+  ],
+  "Wheat black rust": [
+    "a photo of a wheat leaf with black rust",
+    "close-up of black rust pustules on a wheat leaf",
+    "wheat leaf with dark reddish-brown to black rust pustules",
+    "wheat leaf showing elongated dark pustules scattered irregularly along the blade",
+    "macro image of wheat black rust with eruptive pustules and rough powdery spore masses",
+    "black rust on wheat foliage with raised elongated sori that rupture the epidermis",
+    "wheat leaf infected with black rust, showing pustules distributed in scattered streak-like clusters",
+    "wheat leaf with multiple dark rust pustules that may become dense and partly coalescent"
+  ],
+  "Wheat leaf blight": [
+    "a photo of a wheat leaf with leaf blight",
+    "close-up of leaf blight lesions on a wheat leaf",
+    "wheat leaf with tan to brown necrotic blight lesions and streaks",
+    "wheat leaf showing irregular elongated blotches distributed along the leaf blade",
+    "macro image of wheat leaf blight with dry necrotic tissue, diffuse brown margins, and blighted streaks",
+    "leaf blight on wheat foliage with papery lesion texture and elongated necrotic structure",
+    "wheat leaf infected with blight, showing lesions aligned with the leaf axis and expanding into larger blighted patches",
+    "wheat leaf with multiple brown blight lesions that coalesce into extended necrotic zones"
+  ],
+  "Wheat yellow rust": [
+    "a photo of a wheat leaf with yellow rust",
+    "close-up of yellow rust on a wheat leaf",
+    "wheat leaf with bright yellow stripe rust pustules in linear rows",
+    "wheat leaf showing yellow pustules arranged in parallel stripes along the veins",
+    "macro photo of stripe rust with raised yellow pustules and powdery spore texture",
+    "yellow rust on wheat foliage with linear pustule bands and a rough sporulating surface",
+    "wheat leaf infected with yellow rust, showing lesions distributed as continuous longitudinal stripes",
+    "wheat leaf with multiple yellow rust rows that may merge into broader stripe-like infected areas"
+  ],
+  "Apple scab + Cedar-apple rust": [
+    "a photo of an apple leaf with both Apple scab and Cedar-apple rust",
+    "apple leaf co-infected with Apple scab and Cedar-apple rust",
+    "apple leaf showing olive-black velvety scab patches together with bright yellow-orange rust spots",
+    "apple leaf with rough scabby lesions and raised orange rust pustules on the same lamina",
+    "close-up of apple leaf: irregular dark scab blotches plus chlorotic-halo rust lesions",
+    "apple leaf showing scab lesions scattered across the surface while rust pustules appear as discrete orange clusters",
+    "mixed infection on apple foliage with velvety dark scab texture and eruptive rust structures distributed simultaneously",
+    "apple leaf with coalescing scab patches and scattered orange pustular rust lesions present together"
+  ],
+  "Apple scab + Apple black rot": [
+    "a photo of an apple leaf with both Apple scab and Apple black rot",
+    "apple leaf co-infected with Apple scab and Apple black rot",
+    "apple leaf showing olive-black velvety scab lesions together with tan frogeye spots with dark borders",
+    "apple leaf with rough scabby patches and dry ringed necrotic black rot lesions on the same blade",
+    "close-up of apple leaf: superficial velvety scab blotches plus circular frogeye lesions with zonation",
+    "apple leaf showing scab lesions scattered between veins while black rot appears as discrete ringed spots",
+    "mixed foliar infection on apple leaf with scab texture and frogeye lesion structure occurring simultaneously",
+    "apple leaf with irregular dark scab blotches and co-occurring tan ringed black rot spots that may partially coalesce"
+  ],
+  "Apple black rot + Cedar-apple rust": [
+    "a photo of an apple leaf with both Apple black rot and Cedar-apple rust",
+    "apple leaf co-infected with Apple black rot and Cedar-apple rust",
+    "apple leaf showing tan ringed frogeye lesions together with bright orange rust spots",
+    "apple leaf with dry circular black rot lesions and raised orange rust pustules on the same lamina",
+    "close-up of apple leaf: dark-bordered frogeye spots plus chlorotic-halo rust lesions",
+    "apple leaf showing black rot spots scattered across the blade while rust appears as discrete orange pustular lesions",
+    "mixed infection on apple foliage with ringed necrotic black rot structure and eruptive rust texture occurring together",
+    "apple leaf with co-occurring frogeye lesions and scattered orange rust pustules that remain visually distinct"
+  ],
+  "Apple scab + Apple black rot + Cedar-apple rust": [
+    "a photo of an apple leaf with Apple scab, Apple black rot, and Cedar-apple rust",
+    "apple leaf with a mixed infection of Apple scab, Apple black rot, and Cedar-apple rust",
+    "apple leaf showing olive-black velvety scab patches, tan ringed frogeye lesions, and bright orange rust spots",
+    "apple leaf with rough scabby texture, dry circular black rot lesions, and raised rust pustules present simultaneously",
+    "close-up of apple leaf with dark scab blotches, zonate black rot spots, and chlorotic-halo rust lesions",
+    "apple leaf showing irregular scab patches, scattered frogeye lesions, and discrete orange pustules distributed across the same blade",
+    "mixed foliar infection on apple leaf with scab texture, black rot ring structure, and eruptive rust morphology",
+    "apple leaf with coalescing scab areas plus distinct black rot spots and scattered orange rust pustules"
+  ],
+  "Common corn rust + Corn gray leaf spot": [
+    "a photo of a corn leaf with both Common corn rust and Corn gray leaf spot",
+    "corn leaf co-infected with Common corn rust and Corn gray leaf spot",
+    "corn leaf showing orange-brown raised rust pustules together with rectangular gray vein-limited lesions",
+    "corn leaf with powdery eruptive rust sori and flat papery gray leaf spot lesions on the same blade",
+    "close-up of corn leaf: scattered rust pustules plus blocky rectangular lesions aligned between veins",
+    "corn leaf showing rust distributed as irregular pustular clusters while gray leaf spot forms longitudinal vein-bounded patches",
+    "mixed infection on corn foliage with rough rust texture and smooth dry gray lesions occurring simultaneously",
+    "corn leaf with scattered common rust pustules and coalescing rectangular gray leaf spot lesions"
+  ],
+  "Common corn rust + Northern corn leaf blight": [
+    "a photo of a corn leaf with both Common corn rust and Northern corn leaf blight",
+    "corn leaf co-infected with Common corn rust and Northern corn leaf blight",
+    "corn leaf showing orange-brown pustules together with long cigar-shaped tan blight lesions",
+    "corn leaf with eruptive powdery rust sori and broad dry blight lesions on the same leaf blade",
+    "close-up of corn leaf: raised rust pustules plus elongated blight streaks extending along the leaf axis",
+    "corn leaf showing rust scattered irregularly while blight lesions run longitudinally as large necrotic bands",
+    "mixed corn infection with rough rust pustule texture and papery tan blight structure occurring simultaneously",
+    "corn leaf with clustered rust pustules and co-occurring elongated northern corn leaf blight lesions that may expand and merge"
+  ],
+  "Corn gray leaf spot + Northern corn leaf blight": [
+    "a photo of a corn leaf with both Corn gray leaf spot and Northern corn leaf blight",
+    "corn leaf co-infected with Corn gray leaf spot and Northern corn leaf blight",
+    "corn leaf showing rectangular gray vein-limited lesions together with long cigar-shaped tan blight lesions",
+    "corn leaf with flat papery gray leaf spot patches and broad dry blight lesions on the same lamina",
+    "close-up of corn leaf: blocky interveinal gray lesions plus elongated necrotic blight streaks",
+    "corn leaf showing gray leaf spot arranged between veins while blight extends longitudinally along the blade",
+    "mixed corn foliar infection with dry rectangular lesion geometry and large spindle-to-cigar blight structure",
+    "corn leaf with multiple gray leaf spot patches and co-occurring elongated blight lesions that may coalesce"
+  ],
+  "Common corn rust + Corn gray leaf spot + Northern corn leaf blight": [
+    "a photo of a corn leaf with Common corn rust, Corn gray leaf spot, and Northern corn leaf blight",
+    "corn leaf with a mixed infection of rust, gray leaf spot, and northern leaf blight",
+    "corn leaf showing raised orange-brown rust pustules, rectangular gray lesions, and long cigar-shaped blight areas",
+    "corn leaf with powdery eruptive rust sori, flat papery gray spots, and broad dry blight lesions present together",
+    "close-up of corn leaf with scattered rust clusters, vein-limited gray patches, and longitudinal blight streaks",
+    "corn leaf showing rust distributed irregularly while gray leaf spot remains interveinal and blight extends along the leaf axis",
+    "mixed foliar infection on corn with contrasting rust texture, rectangular gray lesion geometry, and elongated blight structure",
+    "corn leaf with clustered rust pustules plus co-occurring gray leaf spot patches and expanding northern blight lesions"
+  ],
+  "Grape isariopsis leaf spot + Grape black rot": [
+    "a photo of a grape leaf with both Grape isariopsis leaf spot and Grape black rot",
+    "grape leaf co-infected with isariopsis leaf spot and black rot",
+    "grape leaf showing angular brown leaf spots together with tan black rot lesions containing black pycnidia dots",
+    "grape leaf with dry dark-edged leaf spot patches and papery black rot lesions bearing pepper-like fruiting bodies",
+    "close-up of grape leaf: clustered angular necrotic spots plus circular tan lesions with embedded pycnidia",
+    "grape leaf showing isariopsis lesions concentrated between veins while black rot appears as scattered discrete spotted lesions",
+    "mixed grape infection with flat necrotic leaf spot texture and black rot fruiting structures occurring simultaneously",
+    "grape leaf with co-occurring angular brown patches and tan black rot lesions that may partially coalesce"
+  ],
+  "Grape isariopsis leaf spot + Grape black measles": [
+    "a photo of a grape leaf with both Grape isariopsis leaf spot and Grape black measles",
+    "grape leaf co-infected with isariopsis leaf spot and black measles (esca)",
+    "grape leaf showing angular brown spots together with interveinal tiger-stripe chlorosis and necrosis",
+    "grape leaf with dry dark-edged spot lesions and broad striped chlorotic-necrotic bands on the same lamina",
+    "close-up of grape leaf: clustered angular necrotic spots plus scorched tiger-striped interveinal areas",
+    "grape leaf showing leaf spot lesions as localized patches while black measles spreads as broad interveinal stripe-like sectors",
+    "mixed grape infection with flat brown spot texture and striped esca pattern occurring simultaneously",
+    "grape leaf with co-occurring angular leaf spot patches and tiger-stripe black measles symptoms across larger leaf areas"
+  ],
+  "Grape black measles + Grape black rot": [
+    "a photo of a grape leaf with both Grape black measles and Grape black rot",
+    "grape leaf co-infected with black measles (esca) and black rot",
+    "grape leaf showing tiger-stripe interveinal necrosis together with tan black rot lesions bearing pycnidia",
+    "grape leaf with broad striped chlorotic-necrotic bands and papery black rot spots with black fruiting dots",
+    "close-up of grape leaf: esca tiger-striping plus circular tan lesions with pepper-like pycnidia",
+    "grape leaf showing black measles distributed as interveinal sectors while black rot remains as scattered discrete spots",
+    "mixed grape infection with striped esca pattern and black rot fruiting structures present simultaneously",
+    "grape leaf with co-occurring tiger-stripe black measles symptoms and scattered dark-bordered black rot lesions"
+  ],
+  "Grape isariopsis leaf spot + Grape black rot + Grape black measles": [
+    "a photo of a grape leaf with Grape isariopsis leaf spot, Grape black rot, and Grape black measles",
+    "grape leaf with a mixed infection of leaf spot, black rot, and black measles (esca)",
+    "grape leaf showing angular brown spots, tan pycnidia-bearing black rot lesions, and tiger-stripe interveinal bands",
+    "grape leaf with dry dark-edged leaf spot patches, papery black rot spots, and broad striped esca sectors present together",
+    "close-up of grape leaf with clustered angular lesions, scattered pycnidia-containing spots, and scorched interveinal striping",
+    "grape leaf showing isariopsis patches between veins, black rot as discrete spotted lesions, and black measles as broad stripe-like areas",
+    "mixed grape foliar infection with leaf spot texture, black rot fruiting structures, and esca tiger-stripe distribution pattern",
+    "grape leaf with co-occurring angular spots, dark-bordered black rot lesions, and extensive interveinal black measles symptoms"
+  ],
+  "Potato early blight + Potato late blight": [
+    "a photo of a potato leaf with both Potato early blight and Potato late blight",
+    "potato leaf co-infected with early blight and late blight",
+    "potato leaf showing target-like concentric early blight spots together with water-soaked dark late blight lesions",
+    "potato leaf with dry ringed necrotic lesions and soft wet-looking dark blight patches on the same leaflet",
+    "close-up of potato leaf: zonate early blight structure plus diffuse irregular late blight blotches",
+    "potato leaf showing early blight as discrete target spots while late blight spreads as broad marginal dark patches",
+    "mixed potato infection with papery concentric lesions and collapsing water-soaked tissue occurring simultaneously",
+    "potato leaf with co-occurring concentric early blight spots and expanding irregular late blight lesions that may merge"
+  ],
+  "Rice brown spot + Rice bacterial blight": [
+    "a photo of a rice leaf with both Rice brown spot and Rice bacterial blight",
+    "rice leaf co-infected with brown spot and bacterial blight",
+    "rice leaf showing small brown oval spots together with long yellow blight streaks from the tip",
+    "rice leaf with dry speckled necrotic spots and smooth elongated water-soaked blight lesions on the same blade",
+    "close-up of rice leaf: scattered brown spot lesions plus tip-originating yellow streaks extending downward",
+    "rice leaf showing brown spot as discrete scattered lesions while bacterial blight spreads longitudinally along the leaf axis",
+    "mixed rice infection with flat brown spot texture and elongated blight structure occurring simultaneously",
+    "rice leaf with numerous brown spots and co-occurring bacterial blight streaks that merge into larger blighted sectors"
+  ],
+  "Rice brown spot + Rice blast": [
+    "a photo of a rice leaf with both Rice brown spot and Rice blast",
+    "rice leaf co-infected with brown spot and blast",
+    "rice leaf showing small brown oval spots together with spindle-shaped blast lesions with gray centers",
+    "rice leaf with dry speckled brown spots and elongated diamond-like blast lesions on the same blade",
+    "close-up of rice leaf: scattered brown lesions plus sharply defined spindle lesions with necrotic margins",
+    "rice leaf showing brown spot distributed as many small discrete lesions while blast aligns as larger spindle lesions along the blade",
+    "mixed rice infection with flat brown spot texture and tapering blast lesion structure occurring simultaneously",
+    "rice leaf with co-occurring scattered brown spot lesions and elongated gray-centered blast lesions that may enlarge"
+  ],
+  "Rice bacterial blight + Rice blast": [
+    "a photo of a rice leaf with both Rice bacterial blight and Rice blast",
+    "rice leaf co-infected with bacterial blight and blast",
+    "rice leaf showing long yellow blight streaks together with spindle-shaped blast lesions with gray centers",
+    "rice leaf with smooth elongated water-soaked blight lesions and dry tapering blast spots on the same blade",
+    "close-up of rice leaf: tip-originating yellow streaks plus spindle lesions arranged along the lamina",
+    "rice leaf showing bacterial blight extending longitudinally while blast remains as discrete gray-centered spindle lesions",
+    "mixed rice infection with elongated blight structure and sharply bordered blast morphology occurring simultaneously",
+    "rice leaf with co-occurring yellow bacterial blight streaks and clustered spindle-shaped blast lesions"
+  ],
+  "Rice brown spot + Rice bacterial blight + Rice blast": [
+    "a photo of a rice leaf with Rice brown spot, Rice bacterial blight, and Rice blast",
+    "rice leaf with a mixed infection of brown spot, bacterial blight, and blast",
+    "rice leaf showing small brown spots, long yellow blight streaks, and spindle-shaped gray-centered blast lesions",
+    "rice leaf with speckled dry brown lesions, smooth elongated blight areas, and tapering blast lesions present together",
+    "close-up of rice leaf with scattered brown spots, tip-to-base yellow streaking, and discrete spindle blast lesions",
+    "rice leaf showing brown spot as scattered speckles, bacterial blight as longitudinal sectors, and blast as larger spindle-shaped patches",
+    "mixed rice foliar infection with contrasting spot-like, streak-like, and spindle-like lesion distributions",
+    "rice leaf with co-occurring brown spot lesions, expanding bacterial blight streaks, and clustered blast lesions"
+  ],
+  "Tomato early blight + Tomato late blight": [
+    "a photo of a tomato leaf with both Tomato early blight and Tomato late blight",
+    "tomato leaf co-infected with early blight and late blight",
+    "tomato leaf showing target-like concentric early blight spots together with water-soaked dark late blight lesions",
+    "tomato leaf with dry ringed necrotic lesions and soft wet-looking dark patches on the same leaflet",
+    "close-up of tomato leaf: zonate early blight structure plus diffuse irregular late blight blotches",
+    "tomato leaf showing early blight as discrete target spots while late blight spreads as broad marginal dark lesions",
+    "mixed tomato infection with papery concentric lesions and collapsing water-soaked tissue occurring simultaneously",
+    "tomato leaf with co-occurring early blight target spots and expanding late blight lesions that may merge into severe blight"
+  ],
+  "Tomato early blight + Tomato septoria leaf spot": [
+    "a photo of a tomato leaf with both Tomato early blight and Tomato septoria leaf spot",
+    "tomato leaf co-infected with early blight and septoria leaf spot",
+    "tomato leaf showing concentric early blight lesions together with many small gray-centered septoria spots",
+    "tomato leaf with dry ringed target lesions and tiny papery lesions containing black pycnidia on the same blade",
+    "close-up of tomato leaf: large zonate early blight spots plus dense scattered septoria speckles",
+    "tomato leaf showing early blight as fewer larger target spots while septoria appears as numerous small scattered lesions",
+    "mixed tomato infection with concentric lesion structure and pycnidia-bearing septoria texture occurring simultaneously",
+    "tomato leaf with co-occurring early blight rings and clustered septoria spots that may merge into blighted areas"
+  ],
+  "Tomato late blight + Tomato septoria leaf spot": [
+    "a photo of a tomato leaf with both Tomato late blight and Tomato septoria leaf spot",
+    "tomato leaf co-infected with late blight and septoria leaf spot",
+    "tomato leaf showing dark water-soaked late blight lesions together with small gray-centered septoria spots",
+    "tomato leaf with soft irregular blight patches and tiny papery pycnidia-bearing spots on the same leaflet",
+    "close-up of tomato leaf: broad diffuse late blight blotches plus dense scattered septoria lesions",
+    "tomato leaf showing late blight spreading from margins while septoria remains as numerous small discrete spots",
+    "mixed tomato infection with collapsing water-soaked tissue and pycnidia-containing septoria structure occurring simultaneously",
+    "tomato leaf with co-occurring dark late blight patches and clustered septoria leaf spot lesions"
+  ],
+  "Tomato early blight + Tomato late blight + Tomato septoria leaf spot": [
+    "a photo of a tomato leaf with Tomato early blight, Tomato late blight, and Tomato septoria leaf spot",
+    "tomato leaf with a mixed infection of early blight, late blight, and septoria leaf spot",
+    "tomato leaf showing concentric early blight lesions, dark water-soaked late blight blotches, and small gray-centered septoria spots",
+    "tomato leaf with dry ringed target lesions, soft irregular blight patches, and tiny pycnidia-bearing septoria spots present together",
+    "close-up of tomato leaf with large zonate lesions, diffuse dark blotches, and numerous scattered small circular spots",
+    "tomato leaf showing early blight as discrete large target spots, late blight as expanding marginal patches, and septoria as dense speckled lesions",
+    "mixed tomato foliar infection with concentric structure, water-soaked blight texture, and pycnidia-containing septoria morphology",
+    "tomato leaf with co-occurring early blight rings, late blight patches, and clustered septoria spots that may jointly produce severe blight"
+  ],
+  "Wheat black rust + Wheat leaf blight": [
+    "a photo of a wheat leaf with both Wheat black rust and Wheat leaf blight",
+    "wheat leaf co-infected with black rust and leaf blight",
+    "wheat leaf showing dark rust pustules together with tan-brown necrotic blight lesions",
+    "wheat leaf with rough powdery eruptive rust sori and dry elongated blight patches on the same blade",
+    "close-up of wheat leaf: scattered dark pustules plus irregular brown blight streaks",
+    "wheat leaf showing black rust as streak-like clusters while blight expands as elongated necrotic sectors along the leaf axis",
+    "mixed wheat infection with raised rust texture and papery blight structure occurring simultaneously",
+    "wheat leaf with co-occurring dark rust pustules and expanding brown blight lesions that may partially coalesce"
+  ],
+  "Wheat black rust + Wheat yellow rust": [
+    "a photo of a wheat leaf with both Wheat black rust and Wheat yellow rust",
+    "wheat leaf co-infected with black rust and yellow rust",
+    "wheat leaf showing dark rust pustules together with bright yellow stripe rust rows",
+    "wheat leaf with rough dark eruptive sori and powdery yellow linear pustule bands on the same blade",
+    "close-up of wheat leaf: scattered black rust streaks plus parallel yellow stripe rust lines",
+    "wheat leaf showing black rust distributed irregularly while yellow rust forms organized longitudinal rows along the veins",
+    "mixed wheat rust infection with contrasting dark scattered pustules and bright linear stripe distribution",
+    "wheat leaf with co-occurring black rust sori and continuous yellow rust bands across the same leaf"
+  ],
+  "Wheat leaf blight + Wheat yellow rust": [
+    "a photo of a wheat leaf with both Wheat leaf blight and Wheat yellow rust",
+    "wheat leaf co-infected with leaf blight and yellow rust",
+    "wheat leaf showing tan-brown necrotic blight lesions together with bright yellow stripe rust pustules",
+    "wheat leaf with dry elongated blight patches and rough powdery yellow pustule rows on the same blade",
+    "close-up of wheat leaf: irregular brown blight blotches plus parallel yellow rust stripes",
+    "wheat leaf showing blight as elongated necrotic sectors while yellow rust remains as longitudinal stripe-like bands",
+    "mixed wheat infection with papery blight structure and raised yellow rust texture occurring simultaneously",
+    "wheat leaf with co-occurring brown blight lesions and clustered yellow rust stripes that extend along the blade"
+  ],
+  "Wheat black rust + Wheat leaf blight + Wheat yellow rust": [
+    "a photo of a wheat leaf with Wheat black rust, Wheat leaf blight, and Wheat yellow rust",
+    "wheat leaf with a mixed infection of black rust, leaf blight, and yellow rust",
+    "wheat leaf showing dark rust pustules, tan-brown blight lesions, and bright yellow stripe rust rows",
+    "wheat leaf with rough eruptive black rust sori, papery elongated blight patches, and powdery yellow linear pustules present together",
+    "close-up of wheat leaf with scattered dark rust clusters, irregular brown necrotic sectors, and parallel yellow rust stripes",
+    "wheat leaf showing black rust as irregular pustular streaks, leaf blight as elongated blighted areas, and yellow rust as continuous longitudinal bands",
+    "mixed wheat foliar infection with contrasting dark rust texture, blight necrosis, and stripe-like yellow rust distribution",
+    "wheat leaf with co-occurring black rust sori, expanding blight lesions, and prominent yellow rust rows across the same blade"
+  ]
+}

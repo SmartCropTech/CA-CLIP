@@ -1,0 +1,298 @@
+import csv
+import json
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Optional, Dict, Any, List, Tuple
+
+import numpy as np
+import torch
+import torch.nn as nn
+from PIL import Image
+from torchvision import models as tv_models
+from torchvision import transforms
+
+
+CLASS_NAMES = [
+    "Cedar-apple rust", "Apple scab", "Apple black rot",
+    "Common corn rust", "Corn gray leaf spot",
+    "Northern corn leaf blight", "Grape isariopsis leaf spot",
+    "Grape black rot", "Grape black measles",
+    "Potato early blight", "Potato late blight",
+    "Rice brown spot", "Rice bacterial blight",
+    "Rice blast", "Tomato early blight",
+    "Tomato late blight", "Tomato septoria leaf spot",
+    "Wheat black rust", "Wheat leaf blight",
+    "Wheat yellow rust"
+]
+
+
+@dataclass
+class PredictConfig:
+    checkpoint_path: str = ""
+    image_path: str = ""
+    device: str = "cuda:0"
+    score_threshold: Optional[float] = None
+    save_csv_path: str = ""
+
+
+def choose_device(device_str: str) -> torch.device:
+    device_str = str(device_str).lower().strip()
+    if device_str == "cpu":
+        return torch.device("cpu")
+    if device_str.startswith("cuda") and torch.cuda.is_available():
+        return torch.device(device_str)
+    return torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+
+def safe_torch_load(path: str, map_location="cpu"):
+    try:
+        return torch.load(path, map_location=map_location, weights_only=True)
+    except TypeError:
+        return torch.load(path, map_location=map_location)
+
+
+def unwrap_state_dict(obj):
+
+    if isinstance(obj, dict):
+        for key in ["state_dict", "model", "net", "module", "student", "teacher", "model_state"]:
+            if key in obj and isinstance(obj[key], dict):
+                obj = obj[key]
+                break
+
+    if isinstance(obj, dict):
+        cleaned = {}
+        for k, v in obj.items():
+            cleaned[k[7:] if k.startswith("module.") else k] = v
+        return cleaned
+    return obj
+
+
+def get_imagenet_normalize() -> transforms.Normalize:
+    return transforms.Normalize(
+        mean=(0.485, 0.456, 0.406),
+        std=(0.229, 0.224, 0.225),
+    )
+
+
+def build_eval_transform() -> transforms.Compose:
+    return transforms.Compose([
+        transforms.Resize(224, interpolation=transforms.InterpolationMode.BICUBIC),
+        transforms.CenterCrop(224),
+        transforms.ToTensor(),
+        get_imagenet_normalize(),
+    ])
+
+
+class TorchvisionFeatureBackbone(nn.Module):
+    def __init__(self, body: nn.Module, pool: Optional[nn.Module] = None):
+        super().__init__()
+        self.body = body
+        self.pool = pool if pool is not None else nn.AdaptiveAvgPool2d(1)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        x = self.body(x)
+        if x.ndim == 4:
+            x = self.pool(x)
+            x = x.flatten(1)
+        elif x.ndim > 2:
+            x = x.flatten(1)
+        return x
+
+
+class RegNetStudent(nn.Module):
+    def __init__(
+        self,
+        num_classes: int,
+        projection_dim: int = 256,
+        dropout_p: float = 0.2,
+        pretrained_backbone: bool = False,
+    ):
+        super().__init__()
+
+        model = tv_models.regnet_y_400mf(
+            weights=tv_models.RegNet_Y_400MF_Weights.IMAGENET1K_V1 if pretrained_backbone else None
+        )
+
+        self.backbone = TorchvisionFeatureBackbone(
+            nn.Sequential(model.stem, model.trunk_output)
+        )
+        feat_dim = model.fc.in_features
+
+        self.proj_head = nn.Sequential(
+            nn.Linear(feat_dim, projection_dim),
+            nn.LayerNorm(projection_dim),
+            nn.GELU(),
+        )
+
+        self.classifier = nn.Sequential(
+            nn.Linear(projection_dim, 256),
+            nn.GELU(),
+            nn.Dropout(dropout_p),
+            nn.Linear(256, num_classes),
+        )
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        feat = self.backbone(x)
+        feat = self.proj_head(feat)
+        return self.classifier(feat)
+
+
+def infer_arch_from_state_dict(state_dict: Dict[str, torch.Tensor]) -> Tuple[int, int]:
+
+    num_classes = None
+    projection_dim = None
+
+    classifier_weight_keys = [
+        k for k in state_dict.keys()
+        if k.startswith("classifier.") and k.endswith(".weight")
+    ]
+    if classifier_weight_keys:
+        classifier_weight_keys = sorted(
+            classifier_weight_keys,
+            key=lambda x: int(x.split(".")[1]) if x.split(".")[1].isdigit() else -1
+        )
+        last_key = classifier_weight_keys[-1]
+        num_classes = int(state_dict[last_key].shape[0])
+
+    if "proj_head.0.weight" in state_dict:
+        projection_dim = int(state_dict["proj_head.0.weight"].shape[0])
+
+    if num_classes is None:
+        raise RuntimeError("Cannot infer num_classes from checkpoint.")
+    if projection_dim is None:
+        projection_dim = 256
+
+    return num_classes, projection_dim
+
+
+def create_regnet_student_from_ckpt(ckpt_obj: Any) -> nn.Module:
+    state_dict = unwrap_state_dict(ckpt_obj)
+    if not isinstance(state_dict, dict):
+        raise RuntimeError("Loaded checkpoint is not a valid state_dict.")
+
+    num_classes, projection_dim = infer_arch_from_state_dict(state_dict)
+
+    model = RegNetStudent(
+        num_classes=num_classes,
+        projection_dim=projection_dim,
+        dropout_p=0.2,
+        pretrained_backbone=False,
+    )
+
+    missing, unexpected = model.load_state_dict(state_dict, strict=False)
+    if missing:
+        print(f"[load_state_dict] missing keys: {missing}")
+    if unexpected:
+        print(f"[load_state_dict] unexpected keys: {unexpected}")
+
+    return model
+
+
+def load_thresholds(checkpoint_path: str, num_classes: int, manual_threshold: Optional[float] = None) -> np.ndarray:
+
+    if manual_threshold is not None:
+        return np.full(num_classes, float(manual_threshold), dtype=np.float32)
+
+    ckpt_dir = Path(checkpoint_path).resolve().parent
+    thresholds = np.full(num_classes, 0.5, dtype=np.float32)
+
+    best_thr_json = ckpt_dir / "best_thresholds.json"
+    if best_thr_json.exists():
+        try:
+            with open(best_thr_json, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if isinstance(data, dict):
+                if "thresholds" in data and isinstance(data["thresholds"], list):
+                    arr = data["thresholds"]
+                    if len(arr) == num_classes:
+                        thresholds = np.array(arr, dtype=np.float32)
+                elif "best_thresholds" in data and isinstance(data["best_thresholds"], list):
+                    arr = data["best_thresholds"]
+                    if len(arr) == num_classes:
+                        thresholds = np.array(arr, dtype=np.float32)
+        except Exception as e:
+            print(f"[warning] Failed to read best_thresholds.json: {e}")
+
+    return thresholds
+
+
+def save_prediction_to_csv(image_path: str, predicted_classes: List[str], save_csv_path: str):
+    save_path = Path(save_csv_path)
+    save_path.parent.mkdir(parents=True, exist_ok=True)
+
+    image_name = Path(image_path).name
+    predicted_text = "; ".join(predicted_classes) if predicted_classes else "None"
+
+    with open(save_path, "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["image_name", "predicted_classes"])
+        writer.writerow([image_name, predicted_text])
+
+    print(f"\nCSV saved to: {save_path}")
+
+
+def predict_single_image(cfg: PredictConfig) -> Dict[str, Any]:
+    device = choose_device(cfg.device)
+    print(f"Using device: {device}")
+
+    ckpt_obj = safe_torch_load(cfg.checkpoint_path, map_location=device)
+    model = create_regnet_student_from_ckpt(ckpt_obj).to(device)
+    model.eval()
+
+    num_classes = model.classifier[-1].out_features
+
+    if len(CLASS_NAMES) != num_classes:
+        raise ValueError(
+            f"CLASS_NAMES length ({len(CLASS_NAMES)}) does not match model output classes ({num_classes})."
+        )
+
+    thresholds = load_thresholds(
+        checkpoint_path=cfg.checkpoint_path,
+        num_classes=num_classes,
+        manual_threshold=cfg.score_threshold,
+    )
+
+    transform = build_eval_transform()
+
+    image = Image.open(cfg.image_path).convert("RGB")
+    image_tensor = transform(image).unsqueeze(0).to(device)
+
+    with torch.no_grad():
+        logits = model(image_tensor)
+        probs = torch.sigmoid(logits).squeeze(0).cpu().numpy()
+
+    pred_mask = probs >= thresholds
+    predicted_classes = [CLASS_NAMES[i] for i in range(num_classes) if pred_mask[i]]
+
+    print("\n===== Prediction Result =====")
+    print(f"Image: {Path(cfg.image_path).name}")
+    if predicted_classes:
+        print("Predicted classes:")
+        for cls_name in predicted_classes:
+            print(f"- {cls_name}")
+    else:
+        print("Predicted classes: None")
+
+    save_prediction_to_csv(
+        image_path=cfg.image_path,
+        predicted_classes=predicted_classes,
+        save_csv_path=cfg.save_csv_path,
+    )
+
+    return {
+        "image_name": Path(cfg.image_path).name,
+        "predicted_classes": predicted_classes,
+        "csv_path": cfg.save_csv_path,
+    }
+
+
+if __name__ == "__main__":
+    cfg = PredictConfig(
+        checkpoint_path="./KD_weight/RegNetY-400MF.pth",
+        image_path="",
+        device="cuda:0",
+        score_threshold=None,
+        save_csv_path="./result.csv",
+    )
+    predict_single_image(cfg)
