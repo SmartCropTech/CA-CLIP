@@ -6,7 +6,7 @@ Shuchen Liu, 821012510578@caas.cn
 
 The main files are as follows:
 
-(1) CA-CLIP - Model's main code, training files, and result files.
+(1) weight - Model's weight.
 
 (2) co-occurring disease leaf images.py - Image synthesis workflow for multi-disease leaf samples code.
 
