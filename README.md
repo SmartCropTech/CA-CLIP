@@ -6,11 +6,11 @@ Shuchen Liu, 821012510578@caas.cn
 
 The main files are as follows:
 
-(1) Multi_disease_construction - Plant leaf multi-disease construction algorithm.
+(1) CA-CLIP - Model's main code, training files, and result files.
 
-(2) CA-CLIP - Model's main code, training files, and result files.
+(2) Co-occurring disease leaf images.py - Image synthesis workflow for multi-disease leaf samples code.
 
-(3) predict.py - Leaf image diagnostic code.
+(3) Predict.py - Leaf image diagnostic code.
 
 
 • Read the beginner’s guide to Python if you are new to the language: https://wiki.python.org/moin/BeginnersGuide
