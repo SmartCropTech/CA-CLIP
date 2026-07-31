@@ -1,0 +1,66 @@
+{
+  "dataset": {
+    "name": "CCPLD",
+    "path": "../CCPLD",
+    "train_images": 2380,
+    "validation_images": 1020,
+    "cooccurring_combinations": 17
+  },
+  "prompt_bank": {
+    "path": "../prompt_bank/disease_prompt_bank.json",
+    "ca_clip_prompt_setting": "P3",
+    "ca_clip_prompt_field": "visible_symptom"
+  },
+  "ca_clip": {
+    "backbone": "OpenAI CLIP ViT-B/16",
+    "input_size": 224,
+    "epochs": 50,
+    "batch_size": 32,
+    "random_seed": 10,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "backbone_learning_rate": 0.000001,
+    "weight_decay": 0.0001,
+    "focal_gamma": 1.5,
+    "adapter_reduction": 4,
+    "adapter_ratio": 0.2,
+    "projection_dimension": 512,
+    "alignment_loss_weight": 0.1,
+    "gate_sparsity_loss_weight": 0.005,
+    "gate_conflict_loss_weight": 0.01
+  },
+  "mobilenet_v3_distilled": {
+    "checkpoint": "../weight/mobilenet_v3.pth",
+    "thresholds": "../weight/best_thresholds.npy",
+    "input_size": 224,
+    "classifier_dropout": 0.2,
+    "teacher_projection_dimension": 512,
+    "default_threshold": 0.5,
+    "batch_size": 32,
+    "num_workers": 0,
+    "device": "auto",
+    "top_k": 3
+  },
+  "class_names": [
+    "Apple black rot",
+    "Apple healthy",
+    "Apple scab",
+    "Cedar-apple rust",
+    "Common corn rust",
+    "Corn gray leaf spot",
+    "Corn healthy",
+    "Grape black measles",
+    "Grape black rot",
+    "Grape healthy",
+    "Grape isariopsis leaf spot",
+    "Northern corn leaf blight",
+    "Potato early blight",
+    "Potato healthy",
+    "Potato late blight",
+    "Tomato early blight",
+    "Tomato healthy",
+    "Tomato late blight",
+    "Tomato septoria leaf spot"
+  ]
+}
+

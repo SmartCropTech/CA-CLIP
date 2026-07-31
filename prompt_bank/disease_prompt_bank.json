@@ -1,0 +1,382 @@
+{
+  "Apple black rot": {
+    "disease_name": [
+      "a photo of an apple leaf with apple black rot"
+    ],
+    "plant_organ": [
+      "an apple leaf showing symptoms of black rot on the leaf blade"
+    ],
+    "visible_symptom": [
+      "an apple leaf with circular tan to brown necrotic spots with darker margins"
+    ],
+    "expert_description": [
+      "apple black rot leaf lesions are typically frog-eye spots with tan centers, purple-brown borders, chlorotic halos, and small dark pycnidia that support diagnosis"
+    ],
+    "all": [
+      "a photo of an apple leaf with apple black rot",
+      "an apple leaf showing symptoms of black rot on the leaf blade",
+      "an apple leaf with circular tan to brown necrotic spots with darker margins",
+      "apple black rot leaf lesions are typically frog-eye spots with tan centers, purple-brown borders, chlorotic halos, and small dark pycnidia that support diagnosis"
+    ]
+  },
+  "Apple healthy": {
+    "disease_name": [
+      "a photo of a healthy apple leaf"
+    ],
+    "plant_organ": [
+      "an apple leaf with an intact and healthy leaf surface"
+    ],
+    "visible_symptom": [
+      "a healthy apple leaf with uniform green lamina, normal venation, and no visible discoloration"
+    ],
+    "expert_description": [
+      "healthy apple leaves show asymptomatic green tissue with intact margins, normal surface texture, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ],
+    "all": [
+      "a photo of a healthy apple leaf",
+      "an apple leaf with an intact and healthy leaf surface",
+      "a healthy apple leaf with uniform green lamina, normal venation, and no visible discoloration",
+      "healthy apple leaves show asymptomatic green tissue with intact margins, normal surface texture, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ]
+  },
+  "Apple scab": {
+    "disease_name": [
+      "a photo of an apple leaf with apple scab"
+    ],
+    "plant_organ": [
+      "an apple leaf showing scab symptoms on the leaf surface"
+    ],
+    "visible_symptom": [
+      "an apple leaf with olive-green to dark brown lesions and localized chlorosis"
+    ],
+    "expert_description": [
+      "apple scab lesions are irregular, velvety to matte, dark olive-brown, often with chlorotic margins and possible coalescence that can distort the leaf surface"
+    ],
+    "all": [
+      "a photo of an apple leaf with apple scab",
+      "an apple leaf showing scab symptoms on the leaf surface",
+      "an apple leaf with olive-green to dark brown lesions and localized chlorosis",
+      "apple scab lesions are irregular, velvety to matte, dark olive-brown, often with chlorotic margins and possible coalescence that can distort the leaf surface"
+    ]
+  },
+  "Cedar-apple rust": {
+    "disease_name": [
+      "a photo of an apple leaf with cedar-apple rust"
+    ],
+    "plant_organ": [
+      "an apple leaf showing rust symptoms on the leaf surface"
+    ],
+    "visible_symptom": [
+      "an apple leaf with bright yellow-orange circular spots with reddish borders"
+    ],
+    "expert_description": [
+      "cedar-apple rust on apple leaves is characterized by conspicuous orange to yellow circular lesions, reddish margins, chlorotic surrounding tissue, and sometimes raised fungal structures"
+    ],
+    "all": [
+      "a photo of an apple leaf with cedar-apple rust",
+      "an apple leaf showing rust symptoms on the leaf surface",
+      "an apple leaf with bright yellow-orange circular spots with reddish borders",
+      "cedar-apple rust on apple leaves is characterized by conspicuous orange to yellow circular lesions, reddish margins, chlorotic surrounding tissue, and sometimes raised fungal structures"
+    ]
+  },
+  "Common corn rust": {
+    "disease_name": [
+      "a photo of a corn leaf with common corn rust"
+    ],
+    "plant_organ": [
+      "a corn leaf blade showing common rust symptoms"
+    ],
+    "visible_symptom": [
+      "a corn leaf with small reddish-brown pustules scattered on the leaf surface"
+    ],
+    "expert_description": [
+      "common rust produces raised oval to elongated uredinial pustules that rupture the epidermis and release reddish-brown spores, often appearing on both leaf surfaces"
+    ],
+    "all": [
+      "a photo of a corn leaf with common corn rust",
+      "a corn leaf blade showing common rust symptoms",
+      "a corn leaf with small reddish-brown pustules scattered on the leaf surface",
+      "common rust produces raised oval to elongated uredinial pustules that rupture the epidermis and release reddish-brown spores, often appearing on both leaf surfaces"
+    ]
+  },
+  "Corn gray leaf spot": {
+    "disease_name": [
+      "a photo of a corn leaf with corn gray leaf spot"
+    ],
+    "plant_organ": [
+      "a corn leaf blade showing gray leaf spot symptoms between the veins"
+    ],
+    "visible_symptom": [
+      "a corn leaf with gray to tan rectangular necrotic lesions limited by parallel veins"
+    ],
+    "expert_description": [
+      "gray leaf spot lesions on corn are narrow, rectangular, gray-tan to brown, vein-delimited, and may coalesce into larger necrotic areas under severe infection"
+    ],
+    "all": [
+      "a photo of a corn leaf with corn gray leaf spot",
+      "a corn leaf blade showing gray leaf spot symptoms between the veins",
+      "a corn leaf with gray to tan rectangular necrotic lesions limited by parallel veins",
+      "gray leaf spot lesions on corn are narrow, rectangular, gray-tan to brown, vein-delimited, and may coalesce into larger necrotic areas under severe infection"
+    ]
+  },
+  "Corn healthy": {
+    "disease_name": [
+      "a photo of a healthy corn leaf"
+    ],
+    "plant_organ": [
+      "a corn leaf blade with an intact and healthy leaf surface"
+    ],
+    "visible_symptom": [
+      "a healthy corn leaf with uniform green lamina, parallel venation, and no visible discoloration"
+    ],
+    "expert_description": [
+      "healthy corn leaves show asymptomatic green blade tissue with intact margins, normal parallel venation, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ],
+    "all": [
+      "a photo of a healthy corn leaf",
+      "a corn leaf blade with an intact and healthy leaf surface",
+      "a healthy corn leaf with uniform green lamina, parallel venation, and no visible discoloration",
+      "healthy corn leaves show asymptomatic green blade tissue with intact margins, normal parallel venation, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ]
+  },
+  "Grape black measles": {
+    "disease_name": [
+      "a photo of a grape leaf with grape black measles"
+    ],
+    "plant_organ": [
+      "a grape leaf showing black measles symptoms across the leaf blade"
+    ],
+    "visible_symptom": [
+      "a grape leaf with interveinal chlorosis, reddish-brown discoloration, and necrotic striping"
+    ],
+    "expert_description": [
+      "grape black measles typically forms tiger-stripe patterns with interveinal chlorosis and necrosis while major veins remain greener, producing diagnostic banded discoloration"
+    ],
+    "all": [
+      "a photo of a grape leaf with grape black measles",
+      "a grape leaf showing black measles symptoms across the leaf blade",
+      "a grape leaf with interveinal chlorosis, reddish-brown discoloration, and necrotic striping",
+      "grape black measles typically forms tiger-stripe patterns with interveinal chlorosis and necrosis while major veins remain greener, producing diagnostic banded discoloration"
+    ]
+  },
+  "Grape black rot": {
+    "disease_name": [
+      "a photo of a grape leaf with grape black rot"
+    ],
+    "plant_organ": [
+      "a grape leaf showing black rot symptoms on the leaf surface"
+    ],
+    "visible_symptom": [
+      "a grape leaf with circular tan-brown necrotic lesions with dark margins"
+    ],
+    "expert_description": [
+      "grape black rot leaf lesions are usually circular to irregular with tan centers, dark brown borders, chlorotic halos, and small black pycnidia embedded within necrotic tissue"
+    ],
+    "all": [
+      "a photo of a grape leaf with grape black rot",
+      "a grape leaf showing black rot symptoms on the leaf surface",
+      "a grape leaf with circular tan-brown necrotic lesions with dark margins",
+      "grape black rot leaf lesions are usually circular to irregular with tan centers, dark brown borders, chlorotic halos, and small black pycnidia embedded within necrotic tissue"
+    ]
+  },
+  "Grape healthy": {
+    "disease_name": [
+      "a photo of a healthy grape leaf"
+    ],
+    "plant_organ": [
+      "a grape leaf with an intact and healthy leaf surface"
+    ],
+    "visible_symptom": [
+      "a healthy grape leaf with uniform green lamina, normal venation, and no visible discoloration"
+    ],
+    "expert_description": [
+      "healthy grape leaves show asymptomatic green tissue with intact margins, normal venation, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ],
+    "all": [
+      "a photo of a healthy grape leaf",
+      "a grape leaf with an intact and healthy leaf surface",
+      "a healthy grape leaf with uniform green lamina, normal venation, and no visible discoloration",
+      "healthy grape leaves show asymptomatic green tissue with intact margins, normal venation, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ]
+  },
+  "Grape isariopsis leaf spot": {
+    "disease_name": [
+      "a photo of a grape leaf with grape isariopsis leaf spot"
+    ],
+    "plant_organ": [
+      "a grape leaf showing isariopsis leaf spot symptoms on the leaf blade"
+    ],
+    "visible_symptom": [
+      "a grape leaf with angular dark brown leaf spots and yellow chlorotic halos"
+    ],
+    "expert_description": [
+      "isariopsis leaf spot on grape leaves produces angular to irregular necrotic lesions delimited by veins, often with dark margins, chlorotic halos, and coalescence under severe infection"
+    ],
+    "all": [
+      "a photo of a grape leaf with grape isariopsis leaf spot",
+      "a grape leaf showing isariopsis leaf spot symptoms on the leaf blade",
+      "a grape leaf with angular dark brown leaf spots and yellow chlorotic halos",
+      "isariopsis leaf spot on grape leaves produces angular to irregular necrotic lesions delimited by veins, often with dark margins, chlorotic halos, and coalescence under severe infection"
+    ]
+  },
+  "Northern corn leaf blight": {
+    "disease_name": [
+      "a photo of a corn leaf with northern corn leaf blight"
+    ],
+    "plant_organ": [
+      "a corn leaf blade showing northern leaf blight symptoms"
+    ],
+    "visible_symptom": [
+      "a corn leaf with long gray-green to tan elliptical blight lesions"
+    ],
+    "expert_description": [
+      "northern corn leaf blight lesions are large cigar-shaped necrotic areas with diffuse margins that elongate along the leaf blade and may coalesce during severe disease development"
+    ],
+    "all": [
+      "a photo of a corn leaf with northern corn leaf blight",
+      "a corn leaf blade showing northern leaf blight symptoms",
+      "a corn leaf with long gray-green to tan elliptical blight lesions",
+      "northern corn leaf blight lesions are large cigar-shaped necrotic areas with diffuse margins that elongate along the leaf blade and may coalesce during severe disease development"
+    ]
+  },
+  "Potato early blight": {
+    "disease_name": [
+      "a photo of a potato leaf with potato early blight"
+    ],
+    "plant_organ": [
+      "a potato leaf showing early blight symptoms on the leaf blade"
+    ],
+    "visible_symptom": [
+      "a potato leaf with dark brown necrotic lesions and concentric rings"
+    ],
+    "expert_description": [
+      "potato early blight lesions are circular to irregular target-like spots with concentric zonation, surrounding chlorosis, and progressive necrosis that may coalesce on older foliage"
+    ],
+    "all": [
+      "a photo of a potato leaf with potato early blight",
+      "a potato leaf showing early blight symptoms on the leaf blade",
+      "a potato leaf with dark brown necrotic lesions and concentric rings",
+      "potato early blight lesions are circular to irregular target-like spots with concentric zonation, surrounding chlorosis, and progressive necrosis that may coalesce on older foliage"
+    ]
+  },
+  "Potato healthy": {
+    "disease_name": [
+      "a photo of a healthy potato leaf"
+    ],
+    "plant_organ": [
+      "a potato leaf with an intact and healthy leaf surface"
+    ],
+    "visible_symptom": [
+      "a healthy potato leaf with uniform green leaflets, normal venation, and no visible discoloration"
+    ],
+    "expert_description": [
+      "healthy potato leaves show asymptomatic green leaflet tissue with intact margins, normal surface texture, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ],
+    "all": [
+      "a photo of a healthy potato leaf",
+      "a potato leaf with an intact and healthy leaf surface",
+      "a healthy potato leaf with uniform green leaflets, normal venation, and no visible discoloration",
+      "healthy potato leaves show asymptomatic green leaflet tissue with intact margins, normal surface texture, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ]
+  },
+  "Potato late blight": {
+    "disease_name": [
+      "a photo of a potato leaf with potato late blight"
+    ],
+    "plant_organ": [
+      "a potato leaf showing late blight symptoms on the leaf blade"
+    ],
+    "visible_symptom": [
+      "a potato leaf with irregular water-soaked pale green to brown blight lesions"
+    ],
+    "expert_description": [
+      "potato late blight lesions are irregular, rapidly expanding, water-soaked to dark necrotic patches with pale margins, tissue collapse, and possible white sporulation at lesion edges"
+    ],
+    "all": [
+      "a photo of a potato leaf with potato late blight",
+      "a potato leaf showing late blight symptoms on the leaf blade",
+      "a potato leaf with irregular water-soaked pale green to brown blight lesions",
+      "potato late blight lesions are irregular, rapidly expanding, water-soaked to dark necrotic patches with pale margins, tissue collapse, and possible white sporulation at lesion edges"
+    ]
+  },
+  "Tomato early blight": {
+    "disease_name": [
+      "a photo of a tomato leaf with tomato early blight"
+    ],
+    "plant_organ": [
+      "a tomato leaf showing early blight symptoms on the leaf blade"
+    ],
+    "visible_symptom": [
+      "a tomato leaf with dark brown necrotic lesions and concentric ring patterns"
+    ],
+    "expert_description": [
+      "tomato early blight lesions are target-shaped necrotic spots with concentric zonation, chlorotic halos, and progressive coalescence that often begins on older leaves"
+    ],
+    "all": [
+      "a photo of a tomato leaf with tomato early blight",
+      "a tomato leaf showing early blight symptoms on the leaf blade",
+      "a tomato leaf with dark brown necrotic lesions and concentric ring patterns",
+      "tomato early blight lesions are target-shaped necrotic spots with concentric zonation, chlorotic halos, and progressive coalescence that often begins on older leaves"
+    ]
+  },
+  "Tomato healthy": {
+    "disease_name": [
+      "a photo of a healthy tomato leaf"
+    ],
+    "plant_organ": [
+      "a tomato leaf with an intact and healthy leaf surface"
+    ],
+    "visible_symptom": [
+      "a healthy tomato leaf with uniform green leaflets, normal venation, and no visible discoloration"
+    ],
+    "expert_description": [
+      "healthy tomato leaves show asymptomatic green leaflet tissue with intact margins, normal surface texture, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ],
+    "all": [
+      "a photo of a healthy tomato leaf",
+      "a tomato leaf with an intact and healthy leaf surface",
+      "a healthy tomato leaf with uniform green leaflets, normal venation, and no visible discoloration",
+      "healthy tomato leaves show asymptomatic green leaflet tissue with intact margins, normal surface texture, and no visible chlorosis, necrosis, lesions, mildew, pustules, or sporulation"
+    ]
+  },
+  "Tomato late blight": {
+    "disease_name": [
+      "a photo of a tomato leaf with tomato late blight"
+    ],
+    "plant_organ": [
+      "a tomato leaf showing late blight symptoms on the leaf blade"
+    ],
+    "visible_symptom": [
+      "a tomato leaf with irregular water-soaked pale green to dark brown lesions"
+    ],
+    "expert_description": [
+      "tomato late blight lesions are irregular and rapidly expanding, often water-soaked before becoming necrotic, with pale green margins and possible white sporulation near lesion edges"
+    ],
+    "all": [
+      "a photo of a tomato leaf with tomato late blight",
+      "a tomato leaf showing late blight symptoms on the leaf blade",
+      "a tomato leaf with irregular water-soaked pale green to dark brown lesions",
+      "tomato late blight lesions are irregular and rapidly expanding, often water-soaked before becoming necrotic, with pale green margins and possible white sporulation near lesion edges"
+    ]
+  },
+  "Tomato septoria leaf spot": {
+    "disease_name": [
+      "a photo of a tomato leaf with tomato septoria leaf spot"
+    ],
+    "plant_organ": [
+      "a tomato leaf showing septoria leaf spot symptoms on the leaf blade"
+    ],
+    "visible_symptom": [
+      "a tomato leaf with many small circular spots with tan to gray centers and dark margins"
+    ],
+    "expert_description": [
+      "tomato septoria leaf spot produces numerous small round lesions with gray-tan centers, dark brown borders, chlorotic halos, and tiny black pycnidia that distinguish it from larger blight lesions"
+    ],
+    "all": [
+      "a photo of a tomato leaf with tomato septoria leaf spot",
+      "a tomato leaf showing septoria leaf spot symptoms on the leaf blade",
+      "a tomato leaf with many small circular spots with tan to gray centers and dark margins",
+      "tomato septoria leaf spot produces numerous small round lesions with gray-tan centers, dark brown borders, chlorotic halos, and tiny black pycnidia that distinguish it from larger blight lesions"
+    ]
+  }
+}
