@@ -41,9 +41,8 @@ CA-CLIP/
 - `multi_disease_construction.py` is the phenotype-prior multi-disease image
   construction implementation, using Apple combinations as the documented
   crop-specific example.
-- `ca_clip_framework.py` contains the complete P3-guided CA-CLIP training
-  framework.
-- `ca_clip_model.py` exposes the CA-Gating and CA-CLIP model classes.
+- `ca_clip_framework.py` contains the architecture-only CA-CLIP definition.
+- `ca_clip_model.py` exposes the CA-Gating and CA-CLIP architecture classes.
 - `mobilenet_v3_distilled.py` contains the distilled MobileNetV3-Large model,
   checkpoint loading, class-specific thresholds, and inference implementation.
 - `predict.py` is the user entry point for either one image or an image folder.
@@ -82,10 +81,10 @@ python predict.py --input path/to/images --output predictions.csv
 
 ## CA-CLIP
 
-`configuration/ca_clip_framework.py` uses OpenAI CLIP ViT-B/16 and the P3
-visible-symptom prompts. The model receives 224 x 224 tensors after
-CLIP-compatible preprocessing. Dataset, prompt, checkpoint, and output paths
-can be overridden through the script arguments.
+`configuration/ca_clip_framework.py` presents the CLIP image encoder,
+residual adapter, prompt-conditioned modulation, class-aware gate, and
+multi-label classification head. It is an architecture reference and does not
+include the training pipeline.
 
 ## License
 
