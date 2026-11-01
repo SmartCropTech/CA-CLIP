@@ -1,19 +1,14 @@
-# CA-CLIP and CCPLD
+# CA-CLIP
 
 This repository provides the three reproducibility materials requested for the
 study:
 
-1. **CCPLD dataset**: `CCPLD/`
-2. **Prompt bank**: `prompt_bank/disease_prompt_bank.json`
+1. **Prompt bank**: `prompt_bank/disease_prompt_bank.json`
 3. **Configuration and model files**: `configuration/`
 
 ## Repository structure
 
 ```text
-CA-CLIP/
-|-- CCPLD/
-|   |-- train/
-|   `-- val/
 |-- prompt_bank/
 |   `-- disease_prompt_bank.json
 |-- configuration/
@@ -32,8 +27,6 @@ CA-CLIP/
 
 ## File descriptions
 
-- `CCPLD/` contains 3,400 co-occurring disease leaf images: 2,380 training
-  images and 1,020 validation images across 17 disease combinations.
 - `disease_prompt_bank.json` contains the structured class-specific prompt
   bank. CA-CLIP uses the P3 `visible_symptom` field.
 - `config.json` records the dataset, CA-CLIP, prompt, threshold, and distilled
