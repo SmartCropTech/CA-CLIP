@@ -26,7 +26,6 @@ study:
 ```
 
 ## File descriptions
-
 - `disease_prompt_bank.json` contains the structured class-specific prompt
   bank. CA-CLIP uses the P3 `visible_symptom` field.
 - `config.json` records the dataset, CA-CLIP, prompt, threshold, and distilled
